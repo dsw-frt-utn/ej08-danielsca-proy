@@ -28,6 +28,14 @@
             Console.WriteLine();
 
             // Problema 5
+            Problema5 p5 = new();
+            decimal total = p5.ObtenerImporteFinal(new Sale());
+            decimal total1 = p5.ObtenerImporteFinal(new RetailSale());
+            decimal total2 = p5.ObtenerImporteFinal(new WholesaleSale());
+            Console.WriteLine("Sale base " + total);
+            Console.WriteLine("Sin descuento " + total1);
+            Console.WriteLine("Con descuento " + total2);
+            Console.WriteLine();
 
             // Problema 6
         }
