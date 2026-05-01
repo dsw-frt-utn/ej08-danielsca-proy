@@ -22,6 +22,10 @@
             Console.WriteLine();
 
             // Problema 4
+            Problema4 p4 = new();
+            double promedio = p4.CalcularPromedio(10, 6, null);
+            Console.WriteLine($"Promedio: {promedio:F2}");
+            Console.WriteLine();
 
             // Problema 5
 
