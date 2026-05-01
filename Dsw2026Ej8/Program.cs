@@ -16,6 +16,10 @@
             Console.WriteLine();
 
             // Problema 3
+            Problema3 p3 = new();
+            string comparacion = p3.CompararCopias(60554, new Problema3.Product("Descripción original"));
+            Console.WriteLine(comparacion);
+            Console.WriteLine();
 
             // Problema 4
 
