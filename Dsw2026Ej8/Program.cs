@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string resultado = ProductHelper.ObtenerEtiquetaProducto(123, "Teclado", 15000m);
+
+            Console.WriteLine(resultado);
         }
     }
 }
