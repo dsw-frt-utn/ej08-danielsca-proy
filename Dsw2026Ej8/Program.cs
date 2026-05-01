@@ -38,6 +38,9 @@
             Console.WriteLine();
 
             // Problema 6
+            Problema6 p6 = new();
+            string normalizado = p6.NormalizarCodigoProducto("ab 123 x");
+            Console.WriteLine(normalizado);
         }
     }
 }
